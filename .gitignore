@@ -1,9 +1,11 @@
 # Ignore files with .log extension
 *.log
 
-# Ignore a directory named "temp"
-/temp
+# Ignore the 'temp' directory
+temp/
 
-# Ignore all files in a directory named "build"
-/build/*
-/node_modules
+# Ignore all files in the 'build' directory (frontend specific)
+frontend/build/
+
+# Ignore node_modules
+node_modules/
