@@ -1,0 +1,9 @@
+# Ignore files with .log extension
+*.log
+
+# Ignore a directory named "temp"
+/temp
+
+# Ignore all files in a directory named "build"
+/build/*
+/node_modules
